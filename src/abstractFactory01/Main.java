@@ -13,7 +13,6 @@ public class Main {
 
         System.out.println("body = " + body);
         System.out.println("wheel = " + wheel);
-        System.out.println("Hello, World!");
     }
 
 }
