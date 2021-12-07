@@ -3,16 +3,12 @@ package abstractFactory02;
 import abstractFactory02.abst.Button;
 import abstractFactory02.abst.GuiFactory;
 import abstractFactory02.abst.TextArea;
-import abstractFactory02.linux.LinuxGuiFactory;
-import abstractFactory02.mac.MacGuiFactory;
-import abstractFactory02.window.WindowGuiFactory;
+import abstractFactory02.concrete.FactoryInstance;
 
 public class Main {
 
-    public static void main(String[] args) {
-//        GuiFactory factory = new LinuxGuiFactory();
-//        GuiFactory factory = new MacGuiFactory();
-        GuiFactory factory = new WindowGuiFactory();
+    public static void main(String[] args) throws Exception {
+        GuiFactory factory = FactoryInstance.getGuiFactory();
 
         Button button = factory.createButton();
         TextArea textArea = factory.createTextArea();
