@@ -1,4 +1,4 @@
-package prototypePattern2;
+package prototypePattern02;
 
 public class Dog implements Cloneable {
 

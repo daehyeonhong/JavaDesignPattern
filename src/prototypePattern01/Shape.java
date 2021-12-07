@@ -1,4 +1,4 @@
-package prototypePattern;
+package prototypePattern01;
 
 public class Shape implements Cloneable {
 
