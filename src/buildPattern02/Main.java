@@ -13,7 +13,7 @@ public class Main {
                 .setStorage("256G SSD")
                 .build();
 
-        System.out.println("computer = " + computer);
+        System.out.println(computer);
     }
 
 }
